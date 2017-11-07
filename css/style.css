@@ -1,3 +1,9 @@
+/*
+    Theme Name: Laura
+    Theme URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+*/
 
 body {
 	line-height: 1.4;
@@ -35,12 +41,8 @@ a:hover, a:focus, a:active{
 Responsive media queries
 ************************************
 ***********************************/
-
-/* Home Section
---------------------------------*/
-
 .header {
-    background: url('../img/faceImg/torontobackground.jpg') no-repeat fixed;
+    background: url('../img/torontobackground.jpg') no-repeat fixed;
     background-size: cover;
     min-height: 630px;
     position: relative;
@@ -55,8 +57,11 @@ Responsive media queries
     font-size: 36px;
     font-family: 'Questrial', cursive;
 }
+
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    color: #fff;
+		margin: 20px;
+		max-width: 1000%;
+		color: #fff;
     outline: none;
 }
 .navbar-default .navbar-nav > li > a{
@@ -140,7 +145,7 @@ Responsive media queries
 	text-align: center;
 	font-family: 'Satisfy', cursive;
 	/*border-right: 5px solid #BE2525;*/
-	font-size: 24px;
+	font-size: 32px;
 }
 .about-text p{
 	color: #444;
@@ -429,6 +434,9 @@ blockquote {
     font-weight: 600;
     margin: 16px 0 5px;
 }
+
+/* Contact Section
+--------------------------------*/
 #contact {
     width: 100%;
     background-color: RGBA(8, 7, 7, 0.92);
@@ -473,6 +481,8 @@ blockquote {
 	display:block;
 }
 
+/* Footer Section
+--------------------------------*/
 footer {
     padding: 40px 0;
     background: #F2F3EB;
