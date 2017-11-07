@@ -1,9 +1,3 @@
-/*
-    Theme Name: Laura
-    Theme URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-*/
 
 body {
 	line-height: 1.4;
@@ -41,6 +35,10 @@ a:hover, a:focus, a:active{
 Responsive media queries
 ************************************
 ***********************************/
+
+/* Home Section
+--------------------------------*/
+
 .header {
     background: url('../img/faceImg/torontobackground.jpg') no-repeat fixed;
     background-size: cover;
@@ -122,6 +120,9 @@ Responsive media queries
 	font-family: 'Satisfy', cursive;
 
 }
+
+/* About Section
+--------------------------------*/
 #about{
 	background: url('../img/about-banner.jpg') no-repeat;
 	background-size: cover;
@@ -146,6 +147,56 @@ Responsive media queries
 	padding: 5px 0px;
 	font-size: 18px;
 	font-weight: 400;
+}
+
+/* Services Section
+--------------------------------*/
+#services {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/karmaWave.jpg") fixed center center;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}
+
+#services .service-item {
+  margin-bottom: 20px;
+}
+
+#services .service-icon {
+  float: left;
+  background: #03C4EB;
+  padding: 16px;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #03C4EB;
+}
+
+#services .service-icon i {
+  color: #fff;
+  font-size: 24px;
+}
+
+#services .service-item:hover .service-icon {
+  background: #fff;
+}
+
+#services .service-item:hover .service-icon i {
+  color: #03C4EB;
+}
+
+#services .service-title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#services .service-title a {
+  color: #111;
+}
+
+#services .service-description {
+  margin-left: 60px;
+  line-height: 24px;
 }
 #portfolio{
 	background-color: #f0f1e9;
